@@ -1,0 +1,12 @@
+{
+	"color":true,
+	"directory":"vendor",
+	"json":"bower.json",
+	"strict-ssl":false,
+	"proxy":"http://proxy2.gonet.gov.on.ca:3128",
+	"https-proxy":"http://proxy2.gonet.gov.on.ca:3128",
+  "directory": "public/lib",
+  "scripts": {
+    "postinstall":"node_modules/.bin/gulp scripts:inject"
+  }
+}
